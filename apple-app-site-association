@@ -1,0 +1,13 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "AN8NN2TVMA.com.byochannel.app",
+        "paths": [
+          "*"
+        ]
+      }
+    ]
+  }
+}
