@@ -67,6 +67,17 @@
   </head>
 
   <body>
+    <script type="text/javascript">
+            window.onload = function() {
+                // Deep link to your app goes here
+                document.getElementById("l").src = "reddit://r/example";
+
+                setTimeout(function() {
+                    // Link to the App Store should go here -- only fires if deep link fails                
+                    window.location = "http://reddit.com/r/example";
+                }, 500);
+            };
+        </script>
     <header>
       <a href="/"><img src="img/profilepic-min.jpg"></a>
       <p>Cameron Pittman<br><span>Course Developer</span></p>
